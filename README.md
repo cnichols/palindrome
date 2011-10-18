@@ -12,12 +12,14 @@ The Palindrome gem extends the String class with the `palindrome?` method.
 ## Usage ##
 irb example:
 
-    > require 'palindrome'
-    => true
-    > "Go hang a salami, I'm a lasagna hog.".palindrome?
-    => true
-    > "No palindrome here".palindrome?
-    => false
+```ruby
+> require 'palindrome'
+=> true
+> "Go hang a salami, I'm a lasagna hog.".palindrome?
+=> true
+> "No palindrome here".palindrome?
+=> false
+```
 
 ## License ##
 
